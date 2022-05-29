@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dating-application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="mainbody">
+        <div id="left">
+            <div id="title">
+                <h1>Date My Child.</h1>
+            </div>
+            <div id="formcontent">
+
+                <!-- form inputs -->
+                <div class="form-content">
+                    <form action="thankyou.html" >
+                        <div class="inputgroup">
+                            <label for="first-name">First Name:</label>
+                            <input type="text" name="first-name" id="first-name" placeholder="Enter your name">
+                        </div>
+                        <div class="inputgroup">
+                            <label for="last-name" class="label">Last Name:</label>
+                            <input type="text" name="last-name" id="last-name" placeholder="Enter your name">
+                        </div>
+                        <div class="inputgroup">
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" placeholder="Enter your mail id">
+                        </div>
+
+                        <div class="inputgroup">
+                            <label for="mobile-no" class="label">Mobile Number</label>
+                            <input type="tel" id="mobile-no" name="mobile-no" placeholder="Enter your mobile no"
+                                maxlength="10">
+                        </div>
+                </div>
+
+                <!-- gender -->
+                <div class="inputgroup">
+                    <label for="gender">Gender</label>
+                    <select name="gender" id="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+
+                    </select>
+                </div>
+                <div class="inputgroup">
+                    <label for="date">Date of proposed outing</label>
+                    <input type="date" name="date" id="date">
+                </div>
+                <!-- checkbox -->
+                <div class="inputgroup">
+                    <label for="checkbox">Check all that apply to you:</label>
+
+                    <div class="checkboxgroup"><input type="checkbox" name="I have tattoos and/or piercings" id="">
+                        <label for="">I have tattoos and/or piercings</label>
+                    </div>
+
+                    <div class="checkboxgroup"><input type="checkbox"
+                            name="I am more than 2 years older than my daughter" id="">
+                        <label for="">I am more than 2 years older than my daughter</label>
+                    </div>
+
+                    <div class="checkboxgroup"><input type="checkbox" name="I own a panel van or Ferrari" id="">
+                        <label for="">I own a panel van or Ferrari</label>
+                    </div>
+
+                    <div class="checkboxgroup"><input type="checkbox" name="I work full-time" id="">
+                        <label for="">I work full-time</label>
+                    </div>
+                    <div class="checkboxgroup"><input type="checkbox" name="My parents are rich" id="">
+                        <label for="">My parents are rich</label>
+                    </div>
+
+
+                </div >
+                <!-- private or public -->
+                <div>
+                <label for="location">Location</label>
+                <input type="radio" name="location" id="public">
+                <label for="public">Public</label>
+                <input type="radio" name="location" id="public">
+                <label for="Private">Private</label>
+                </div>
+
+
+                <!-- education -->
+                <div class="inputgroup"><label for="gender">Higher Education</label>
+                    <select name="gender" id="gender">
+                        <option value="10th">10th</option>
+                        <option value="12th">12th</option>
+                        <option value="diplomo">diplomo</option>
+                        <option value="graduate">graduate</option>
+                        <option value="undergraduate">undergraduate</option>
+                    </select>
+                </div>
+
+                <!-- essay  -->
+                <div class="inputgroup">
+                    <label for="essay">Why do you want to date my daughter (50 words input)?</label>
+                    <textarea name="essay" id="essay" cols="30" rows="5"></textarea>
+                </div>
+
+                <!-- reference -->
+                <div class="inputgroup">
+                    <label for="gaurd">Gaurdian</label>
+                    <input type="text" id="gaurd">
+                </div>
+                <div class="fileinput">
+                    <label for="bank">An option to upload the bank statement :-)</label>
+                    <input type="file" id="bank" name="bank">
+                </div>
+                <div class="inputgroup">
+                    <button type="submit">submit</button>
+                </div>
+                </form>
+            </div>
+        </div>
+        <div id="right">
+            <img src="couple.svg" alt="">
+        </div>
+    </div>
+</body>
+
+</html>
